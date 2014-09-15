@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>#Digital #LunchandLearn</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/rp3.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<img src="img/RP3_Logo.png" />
+				</section>
+				<section>
+					<h1>#digital</h1><h2>#lunchandlearn</h2>
+				</section>
+				<section>
+					<h2>#onesandzeros &rarr; #likesandshares</h2>
+				</section>
+				<section>
+					<h2>#<del>computersandhumans</del></h2><h2>#humantohuman </h2>
+				</section>
+				<section>
+					<h2>#networksaresocial</h2>
+				</section>
+				<section>
+					<h2>#http #questionresponse</h2>
+				</section>
+				<section>
+					<section>
+						<h2>#structure</h2><h2>#style</h2><h2>#behavior</h2>
+					</section>
+					<section>
+						<h2>#structure = #html</h2>
+						<pre><code class="html">
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+	&lt;head&gt;
+		&lt;meta charset=&quot;utf-8&quot;&gt;
+
+		&lt;title&gt;#Digital #LunchandLearn&lt;/title&gt;
+						</code></pre>
+					</section>
+					<section>
+						<h2>#style = #css</h2>
+						<pre><code class="css">
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+.reveal section .white {
+	color: #fff;
+}
+
+.reveal section pre {
+	max-width: 960px;
+}
+							
+						</code></pre>
+					</section>
+					<section>
+						<h2>#behavior = #javascript</h2>
+						<pre><code data-trim class="javascript">
+//An extremely trivial example of Javascript							
+var a = 5,
+    b = 10,
+    c = a + b;
+
+alert(c);
+							</code></pre>
+					</section>
+				</section>
+				<section data-background="#00BBE3">
+					<h2 class="white">#humansandrobots</h2>
+				</section>
+				<section>
+					<section>
+						<h2>#historyofbuildingsoftware</h2>
+					</section>
+					<section data-background="#555">
+						<h2 class="white">#waterfall</h2>
+						<ul>
+							<li class="white">#discovery</li>
+							<li class="white">#plan</li>
+							<li class="white">#design</li>
+							<li class="white">#build</li>
+							<li class="white">#test</li>
+							<li class="white">#launch</li>
+						</ul>
+					</section>
+					<section data-background="#00BBE3">
+						<h2 class="white">#agile</h2>
+						<ul>
+							<li class="white">#dothesimplestthingthatworks</li>
+							<li class="white">#makeitbetter</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>#agiledesign?</h2>
+					</section>
+					<section>
+						<h2>#designthinking</h2>
+						<ul>
+							<li>#empathize</li>
+							<li>#define</li>
+							<li>#ideate</li>
+							<li>#prototype</li>
+							<li>#test</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>#itsnotmarble</h2>
+				</section>
+				<section>
+					<h2>#ownyourdata</h2>
+				</section>
+				<section>
+					<h2>#programorbeprogrammed</h2>
+					<ul>
+						<li><a href="http://twitter.com/codecademy/">@codecademy</a></li>
+						<li><a href="http://twitter.com/GA_DC/">@GA_DC</a></li>
+					</ul>					
+				</section>
+				<section>
+					<h2>#thankyou</h2>
+				</section>
+			
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				width: 1400,
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
